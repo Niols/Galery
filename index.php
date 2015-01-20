@@ -14,7 +14,7 @@ require 'config.php';
     <link rel="stylesheet" type="text/css" href="http://niols.net/81-columns.css" />
     <link rel="stylesheet" type="text/css" href="design.css" />
 
-    <title>B6 rocks!</title>
+    <title><?php echo TITLE; ?></title>
 
   </head>
 
@@ -23,8 +23,8 @@ require 'config.php';
     <ul class="menu right align-right">
       <li><a href="..">Back</a></li>
     </ul>
-    <h1><a href="..">B6 rocks!</a></h1>
-    Galerie de photos
+    <h1><a href=".."><?php echo TITLE; ?></a></h1>
+    <?php echo SUBTITLE; ?>
     <hr/>
 
     <?php require 'show_img.php'; ?>

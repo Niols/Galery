@@ -1,5 +1,9 @@
 <?php
 
+// Site
+define ('TITLE', 'B6 rocks!');
+define ('SUBTITLE', 'Galerie de photos');
+
 // Allowed / Unallowed. Nope, we can't
 define ('ALLOWED_EXTENSIONS', 'jpg|jpeg|gif|png');
 define ('UNALLOWED_FILES', '.|..');
